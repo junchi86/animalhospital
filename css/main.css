@@ -1,0 +1,188 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+header {
+    width: 2000px;
+    margin: auto;
+    text-align: center;
+}
+
+#logo {
+    width: 246px;
+    padding: 64px;
+    margin: auto;
+    text-align: center;
+}
+
+.main {
+    width: 2000px;
+    margin: auto;
+    padding-top: 100px;
+    background: #ebebe6;
+}
+
+.mainbox {
+    width: 1390px;
+    margin: auto;
+}
+
+#aside {
+    float: left;
+    width: 40%
+}
+
+.asidetext > p {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 38px;
+    color: #787878;
+}
+
+.asidetext > p:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8f8f91;
+    padding-top: 12px;
+}
+
+.asidephoto {
+    padding-top: 70px;
+}
+
+.box {
+    float: right;
+    width: 60%
+}
+
+.photobox {
+    float: left;
+}
+
+.col-md-1 {
+    width: 33.333%;
+    float: left;
+}
+
+.col-md-2 {
+    width: 66.666%;
+    float: left;
+}
+
+.subbox {
+    width: 1390px;
+}
+
+.leftside {
+    width: 23%;
+    padding-top: 40px;
+    padding-left: 15px;
+    float: left;
+}
+
+.leftside > p:nth-child(odd) {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #666666;
+}
+
+.leftside > p:nth-child(even) {
+    font-size: 17px;
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.rightsidebox {
+    width: 74%;
+    float: right;
+    padding-top: 60px;
+}
+
+.rightside {
+    text-align: center;
+}
+
+.rightsidetext {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.rightsidetext1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #cc6666;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.rightsidetextsub {
+    font-size: 17px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.rightside > div {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+}
+
+.leftside > p > i {
+    font-size: 20px;
+    width: 30px
+}
+
+.arrowbox {
+    float: right;
+}
+
+.arrowbox > i {
+    font-size: 50px;
+}
+
+.img1 {
+    width: 87px;
+    height: auto;
+}
+
+footer {
+    width: 2000px;
+    background: #666666;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.foot {
+    width: 700px;
+    margin-left: 300px;
+}
+
+.foot > p:first-child {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    word-spacing: 20px;
+}
